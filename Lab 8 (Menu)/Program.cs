@@ -19,14 +19,14 @@ public class Program
         var seafoodSection = new Section("Рыба");
         seafoodSection.Add(salmonDish);
 
-        var pastaSection = new Section("Десерты");
-        pastaSection.Add(pastaDish);
+        var cakeSection = new Section("Десерты");
+        cakeSection.Add(pastaDish);
 
         
         var menu = new Menu("Ресторан");
         menu.Add(meatSection);
         menu.Add(seafoodSection);
-        menu.Add(pastaSection);
+        menu.Add(cakeSection);
 
        
         menu.Print();
