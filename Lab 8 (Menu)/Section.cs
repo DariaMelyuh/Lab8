@@ -38,10 +38,8 @@
         public void Print()
         {
             Console.WriteLine($"{Name}:");
-            foreach (var component in _menuComponents)
-            {
-                component.Print();
-            }
+            _menuComponents.ForEach(component => component.Print());
         }
+
     }
 }
