@@ -9,7 +9,7 @@ public class Program
         var chickenDish = new Dish("Шашлык из курицы");
         var beefDish = new Dish("Стейк из говядины");
         var salmonDish = new Dish("Лосось на гриле");
-        var pastaDish = new Dish("Наполеон");
+        var napoleonCake = new Dish("Наполеон");
 
    
         var meatSection = new Section("Мясо");
@@ -20,7 +20,7 @@ public class Program
         seafoodSection.Add(salmonDish);
 
         var cakeSection = new Section("Десерты");
-        cakeSection.Add(pastaDish);
+        cakeSection.Add(napoleonCake);
 
         
         var menu = new Menu("Ресторан");
