@@ -4,8 +4,6 @@ public class Program
 {
     static void Main()
     {
-
-     
         var chickenDish = new Dish("Шашлык из курицы");
         var beefDish = new Dish("Стейк из говядины");
         var salmonDish = new Dish("Лосось на гриле");

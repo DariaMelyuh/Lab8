@@ -12,7 +12,7 @@
 
         public void Add(IComponent component)
         {
-            if (component is null)
+            if (component == null)
             {
                 throw new ArgumentNullException(nameof(component), "Компонент не может быть null");
             }
@@ -22,7 +22,7 @@
 
         public void Remove(IComponent component)
         {
-            if (component is null)
+            if (component == null)
             {
                 throw new ArgumentNullException(nameof(component), "Компонент не может быть null");
             }

@@ -12,17 +12,18 @@
 
         public void Add(IComponent component)
         {
-            if (component is null)
+            if (component == null)
             {
                 throw new ArgumentNullException(nameof(component), "Компонент не может быть null");
             }
+
 
             _menuComponents.Add(component);
         }
 
         public void Remove(IComponent component)
         {
-            if (component is null)
+            if (component==null)
             {
                 throw new ArgumentNullException(nameof(component), "Компонент не может быть null");
             }
